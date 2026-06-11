@@ -1,0 +1,6 @@
+@MArketSystem.API_HostAddress = http://localhost:5206
+
+GET {{MArketSystem.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
