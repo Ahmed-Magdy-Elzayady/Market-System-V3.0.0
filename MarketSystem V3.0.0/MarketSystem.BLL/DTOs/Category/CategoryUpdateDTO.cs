@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MarketSystem.BLL.DTOs.Produtc
 {
-    public class CategoryUpdateDTO:CategoryReadAllDTO
+    public class CategoryUpdateDTO:CategoryAddDto
     {
     }
 }

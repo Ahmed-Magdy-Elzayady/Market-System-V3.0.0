@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace MarketSystem.DAL.Data.ApplicationContext
 {
-    public class MarketSystemContext:IdentityDbContext<IdentityUser,IdentityRole,string>
+    public class MarketSystemContext : IdentityDbContext<ApplicationUser, IdentityRole,string>
     {
         public MarketSystemContext(DbContextOptions<MarketSystemContext> option) : base(option) { }
 

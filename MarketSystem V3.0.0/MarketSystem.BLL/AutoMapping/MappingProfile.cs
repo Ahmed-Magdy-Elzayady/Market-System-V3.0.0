@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using MarketSystem.BLL.DTOs.Account;
 using MarketSystem.BLL.DTOs.Produtc;
 using MarketSystem.DAL.Data.Models;
 using System;
@@ -24,6 +25,8 @@ namespace MarketSystem.BLL.AutoMapping
             CreateMap<CategoryModel, CategoryGetByIDDTO>().ReverseMap();
             CreateMap<CategoryModel, CategoryUpdateDTO>().ReverseMap();
             CreateMap<CategoryModel, CategoryGetByTitleDTO>().ReverseMap();
+
+            CreateMap<ApplicationUser, RegisterDTO>().ReverseMap();
         }
     }
 }

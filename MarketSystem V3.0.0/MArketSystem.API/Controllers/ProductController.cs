@@ -1,5 +1,6 @@
 ﻿using MarketSystem.BLL.DTOs.Produtc;
 using MarketSystem.BLL.Manager.Product;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -15,21 +16,25 @@ namespace MArketSystem.API.Controllers;
 
         [HttpGet]
         [Route("GetAllProducts")]
-        public async Task<ActionResult> GetAllProducts()
+    [Authorize(Roles = "Admin,User")]
+    public async Task<ActionResult> GetAllProducts()
             => Ok(await _productManager.GetAllProducts());
 
         [HttpGet]
         [Route("{id}")]
-        public async Task<ActionResult> GetProductById(int id)
+    [Authorize(Roles = "Admin,User")]
+    public async Task<ActionResult> GetProductById(int id)
             => Ok(await _productManager.GetProductById(id));
 
     [HttpGet]
     [Route("GetByTitle")]
+    [Authorize(Roles = "Admin,User")]
     public async Task<ActionResult> GetProductByTitle([FromQuery] string Title)
         => Ok(await _productManager.GetProductByTitle(Title));
 
         
         [HttpPost]
+         [Authorize(Roles ="Admin")]
         public async Task<ActionResult> AddNewProduct(ProductAddDTO _product)
         {
             await _productManager.AddNewProduct(_product);
@@ -39,7 +44,8 @@ namespace MArketSystem.API.Controllers;
 
     [HttpPut]
     [Route("{id}")]
-        public async Task<ActionResult> UpdateExistingProduct(int id, ProductUpdateDTO _product)
+    [Authorize(Roles = "Admin")]
+    public async Task<ActionResult> UpdateExistingProduct(int id, ProductUpdateDTO _product)
         {
             await _productManager.UpdateExistingProduct(id, _product);
             await _productManager.SaveChanges();
@@ -49,6 +55,7 @@ namespace MArketSystem.API.Controllers;
 
     [HttpDelete]
     [Route("{id}")]
+    [Authorize(Roles = "Admin")]
     public async Task<ActionResult> DeleteExistingProduct(int id)
     {
         await _productManager.DeleteExistingProduct(id);

@@ -1,5 +1,37 @@
 [
   {
+    "ContainingType": "MArketSystem.API.Controllers.AuthController",
+    "Method": "LogIn",
+    "RelativePath": "api/Auth/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "MarketSystem.BLL.DTOs.Account.LoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MArketSystem.API.Controllers.AuthController",
+    "Method": "Registeration",
+    "RelativePath": "api/Auth/Sign-Up",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "MarketSystem.BLL.DTOs.Account.RegisterDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "MArketSystem.API.Controllers.CategoryController",
     "Method": "AddNewCategory",
     "RelativePath": "api/Category",
@@ -11,6 +43,22 @@
         "Name": "_caregory",
         "Type": "MarketSystem.BLL.DTOs.Produtc.CategoryAddDto",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MArketSystem.API.Controllers.CategoryController",
+    "Method": "DeleteExistingCategory",
+    "RelativePath": "api/Category",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

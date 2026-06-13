@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\full stack material\\TASKS\\Full_Projects\\MarketSystem V3.0.0\\MarketSystem.DAL\\MarketSystem.DAL.csproj": {}
+    "D:\\full stack material\\TASKS\\Full_projects_GitHubed\\Market-System-V3.0.0\\MarketSystem V3.0.0\\MarketSystem.DAL\\MarketSystem.DAL.csproj": {}
   },
   "projects": {
-    "D:\\full stack material\\TASKS\\Full_Projects\\MarketSystem V3.0.0\\MarketSystem.DAL\\MarketSystem.DAL.csproj": {
+    "D:\\full stack material\\TASKS\\Full_projects_GitHubed\\Market-System-V3.0.0\\MarketSystem V3.0.0\\MarketSystem.DAL\\MarketSystem.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\full stack material\\TASKS\\Full_Projects\\MarketSystem V3.0.0\\MarketSystem.DAL\\MarketSystem.DAL.csproj",
+        "projectUniqueName": "D:\\full stack material\\TASKS\\Full_projects_GitHubed\\Market-System-V3.0.0\\MarketSystem V3.0.0\\MarketSystem.DAL\\MarketSystem.DAL.csproj",
         "projectName": "MarketSystem.DAL",
-        "projectPath": "D:\\full stack material\\TASKS\\Full_Projects\\MarketSystem V3.0.0\\MarketSystem.DAL\\MarketSystem.DAL.csproj",
+        "projectPath": "D:\\full stack material\\TASKS\\Full_projects_GitHubed\\Market-System-V3.0.0\\MarketSystem V3.0.0\\MarketSystem.DAL\\MarketSystem.DAL.csproj",
         "packagesPath": "C:\\Users\\FuTuRe\\.nuget\\packages\\",
-        "outputPath": "D:\\full stack material\\TASKS\\Full_Projects\\MarketSystem V3.0.0\\MarketSystem.DAL\\obj\\",
+        "outputPath": "D:\\full stack material\\TASKS\\Full_projects_GitHubed\\Market-System-V3.0.0\\MarketSystem V3.0.0\\MarketSystem.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -85,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.315/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

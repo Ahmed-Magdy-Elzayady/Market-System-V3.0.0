@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\full stack material\\TASKS\\Full_Projects\\MarketSystem V3.0.0\\MArketSystem.API\\MArketSystem.API.csproj": {}
+    "D:\\full stack material\\TASKS\\Full_projects_GitHubed\\Market-System-V3.0.0\\MarketSystem V3.0.0\\MArketSystem.API\\MArketSystem.API.csproj": {}
   },
   "projects": {
-    "D:\\full stack material\\TASKS\\Full_Projects\\MarketSystem V3.0.0\\MArketSystem.API\\MArketSystem.API.csproj": {
+    "D:\\full stack material\\TASKS\\Full_projects_GitHubed\\Market-System-V3.0.0\\MarketSystem V3.0.0\\MArketSystem.API\\MArketSystem.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\full stack material\\TASKS\\Full_Projects\\MarketSystem V3.0.0\\MArketSystem.API\\MArketSystem.API.csproj",
+        "projectUniqueName": "D:\\full stack material\\TASKS\\Full_projects_GitHubed\\Market-System-V3.0.0\\MarketSystem V3.0.0\\MArketSystem.API\\MArketSystem.API.csproj",
         "projectName": "MArketSystem.API",
-        "projectPath": "D:\\full stack material\\TASKS\\Full_Projects\\MarketSystem V3.0.0\\MArketSystem.API\\MArketSystem.API.csproj",
+        "projectPath": "D:\\full stack material\\TASKS\\Full_projects_GitHubed\\Market-System-V3.0.0\\MarketSystem V3.0.0\\MArketSystem.API\\MArketSystem.API.csproj",
         "packagesPath": "C:\\Users\\FuTuRe\\.nuget\\packages\\",
-        "outputPath": "D:\\full stack material\\TASKS\\Full_Projects\\MarketSystem V3.0.0\\MArketSystem.API\\obj\\",
+        "outputPath": "D:\\full stack material\\TASKS\\Full_projects_GitHubed\\Market-System-V3.0.0\\MarketSystem V3.0.0\\MArketSystem.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\full stack material\\TASKS\\Full_Projects\\MarketSystem V3.0.0\\MarketSystem.BLL\\MarketSystem.BLL.csproj": {
-                "projectPath": "D:\\full stack material\\TASKS\\Full_Projects\\MarketSystem V3.0.0\\MarketSystem.BLL\\MarketSystem.BLL.csproj"
+              "D:\\full stack material\\TASKS\\Full_projects_GitHubed\\Market-System-V3.0.0\\MarketSystem V3.0.0\\MarketSystem.BLL\\MarketSystem.BLL.csproj": {
+                "projectPath": "D:\\full stack material\\TASKS\\Full_projects_GitHubed\\Market-System-V3.0.0\\MarketSystem V3.0.0\\MarketSystem.BLL\\MarketSystem.BLL.csproj"
               }
             }
           }
@@ -54,6 +54,18 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.27, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -63,6 +75,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.19.1, )"
             }
           },
           "imports": [
@@ -84,18 +100,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.315/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\full stack material\\TASKS\\Full_Projects\\MarketSystem V3.0.0\\MarketSystem.BLL\\MarketSystem.BLL.csproj": {
+    "D:\\full stack material\\TASKS\\Full_projects_GitHubed\\Market-System-V3.0.0\\MarketSystem V3.0.0\\MarketSystem.BLL\\MarketSystem.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\full stack material\\TASKS\\Full_Projects\\MarketSystem V3.0.0\\MarketSystem.BLL\\MarketSystem.BLL.csproj",
+        "projectUniqueName": "D:\\full stack material\\TASKS\\Full_projects_GitHubed\\Market-System-V3.0.0\\MarketSystem V3.0.0\\MarketSystem.BLL\\MarketSystem.BLL.csproj",
         "projectName": "MarketSystem.BLL",
-        "projectPath": "D:\\full stack material\\TASKS\\Full_Projects\\MarketSystem V3.0.0\\MarketSystem.BLL\\MarketSystem.BLL.csproj",
+        "projectPath": "D:\\full stack material\\TASKS\\Full_projects_GitHubed\\Market-System-V3.0.0\\MarketSystem V3.0.0\\MarketSystem.BLL\\MarketSystem.BLL.csproj",
         "packagesPath": "C:\\Users\\FuTuRe\\.nuget\\packages\\",
-        "outputPath": "D:\\full stack material\\TASKS\\Full_Projects\\MarketSystem V3.0.0\\MarketSystem.BLL\\obj\\",
+        "outputPath": "D:\\full stack material\\TASKS\\Full_projects_GitHubed\\Market-System-V3.0.0\\MarketSystem V3.0.0\\MarketSystem.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -116,8 +132,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\full stack material\\TASKS\\Full_Projects\\MarketSystem V3.0.0\\MarketSystem.DAL\\MarketSystem.DAL.csproj": {
-                "projectPath": "D:\\full stack material\\TASKS\\Full_Projects\\MarketSystem V3.0.0\\MarketSystem.DAL\\MarketSystem.DAL.csproj"
+              "D:\\full stack material\\TASKS\\Full_projects_GitHubed\\Market-System-V3.0.0\\MarketSystem V3.0.0\\MarketSystem.DAL\\MarketSystem.DAL.csproj": {
+                "projectPath": "D:\\full stack material\\TASKS\\Full_projects_GitHubed\\Market-System-V3.0.0\\MarketSystem V3.0.0\\MarketSystem.DAL\\MarketSystem.DAL.csproj"
               }
             }
           }
@@ -141,6 +157,10 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[16.1.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[8.6.3, )"
             }
           },
           "imports": [
@@ -159,18 +179,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.315/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\full stack material\\TASKS\\Full_Projects\\MarketSystem V3.0.0\\MarketSystem.DAL\\MarketSystem.DAL.csproj": {
+    "D:\\full stack material\\TASKS\\Full_projects_GitHubed\\Market-System-V3.0.0\\MarketSystem V3.0.0\\MarketSystem.DAL\\MarketSystem.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\full stack material\\TASKS\\Full_Projects\\MarketSystem V3.0.0\\MarketSystem.DAL\\MarketSystem.DAL.csproj",
+        "projectUniqueName": "D:\\full stack material\\TASKS\\Full_projects_GitHubed\\Market-System-V3.0.0\\MarketSystem V3.0.0\\MarketSystem.DAL\\MarketSystem.DAL.csproj",
         "projectName": "MarketSystem.DAL",
-        "projectPath": "D:\\full stack material\\TASKS\\Full_Projects\\MarketSystem V3.0.0\\MarketSystem.DAL\\MarketSystem.DAL.csproj",
+        "projectPath": "D:\\full stack material\\TASKS\\Full_projects_GitHubed\\Market-System-V3.0.0\\MarketSystem V3.0.0\\MarketSystem.DAL\\MarketSystem.DAL.csproj",
         "packagesPath": "C:\\Users\\FuTuRe\\.nuget\\packages\\",
-        "outputPath": "D:\\full stack material\\TASKS\\Full_Projects\\MarketSystem V3.0.0\\MarketSystem.DAL\\obj\\",
+        "outputPath": "D:\\full stack material\\TASKS\\Full_projects_GitHubed\\Market-System-V3.0.0\\MarketSystem V3.0.0\\MarketSystem.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -244,7 +264,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.315/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
